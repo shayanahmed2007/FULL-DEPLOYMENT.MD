@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH ESSENTIAL STORE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        * {
+            margin: 0px 0px;
+            box-sizing: border-box;
+        }
+
+        .dabba {
+            font-weight: bold;
+            background-color: #1b7587;
+            display: flex;
+            padding: 0px 0px;
+            height: 25px;
+            font-size: 12px;
+
+        }
+
+        .hex {
+            padding: 6px 85px;
+            text-align: center;
+            position: relative;
+            right: -2rem;
+            cursor: pointer;
+        }
+
+        .hexy {
+            padding: 6px 139px;
+            cursor: pointer;
+            position: relative;
+            left: 6rem;
+        }
+
+        .hexa {
+            padding: 6px 0px;
+            text-align: center;
+            position: relative;
+            left: 14rem;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: #e8f3f3;
+            display: flex;
+            height: 6rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        h2 {
+            position: relative;
+            right: 14rem;
+            font-weight: bold;
+        }
+
+        .nav {
+            display: flex;
+            position: relative;
+            font-family: 'Baloo Bhai', cursive;
+            left: 13rem;
+        }
+
+        .first {
+            padding: 0px 20px;
+        }
+
+        .second {
+            padding: 0px 20px;
+        }
+
+        .third {
+            padding: 0px 20px;
+        }
+
+        .four {
+            padding: 0px 20px;
+        }
+
+        .imag {
+            margin: 0px 0px;
+            width: 98.7vw;
+            height: 98vh;
+            opacity: 0.7;
+        }
+
+        .text {
+            color: #5800a9;
+            position: relative;
+            top: -29rem;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            left: -2rem;
+            text-shadow: 5px 5px 8px mediumpurple;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .text:hover {
+            text-decoration: underline #000000;
+        }
+
+        .tex {
+            color: #5800a9;
+            position: relative;
+            top: -26rem;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            left: -1rem;
+            text-shadow: 5px 5px 8px mediumpurple;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            position: relative;
+            top: -23rem;
+            left: 33rem;
+            padding: 4px 12px;
+            border: 2px solid rebeccapurple;
+            border-radius: 20px;
+            background-color: #dbcde5;
+            font-weight: bold
+        }
+
+        .btn:hover {
+            background-color: #905aba;
+        }
+
+        .name {
+            border: 2px solid transparent;
+            width: 9vw;
+            height: 12vh;
+            border-radius: 50px;
+        }
+
+        main {
+            display: flex;
+            gap: 110px;
+            margin: auto 194px;
+        }
+
+        article {
+            position: relative;
+            top: 0rem;
+            display: flex;
+            cursor: pointer;
+            padding: 9px 12rem;
+            gap: 137px;
+            padding: 9px 12rem;
+            FONT-SIZE: 12px;
+            font-weight: bold;
+            /* font-family: system-ui; */
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        .to {
+            position: relative;
+            left: 31px;
+        }
+
+        .fr {
+            position: relative;
+            left: 31px;
+        }
+
+        .rl {
+            position: relative;
+            left: 12px;
+        }
+
+        .ab {
+            position: relative;
+            top: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            margin-left: 183px;
+        }
+
+        .cd {
+            position: relative;
+            top: -8px;
+            font-size: 11px;
+            cursor: pointer;
+            margin-left: 26rem;
+        }
+
+        .ef {
+            position: relative;
+            top: -20px;
+            font-size: 11px;
+            cursor: pointer;
+            margin-left: 40rem;
+        }
+
+        .gh {
+            position: relative;
+            top: -33px;
+            font-size: 11px;
+            cursor: pointer;
+            margin-left: 54rem;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: rgb(115, 212, 212); */
+            height: 85vh;
+            width: 170vh;
+            margin: 2rem 3rem;
+        }
+
+        .babar {
+            height: 25vh;
+            width: 22vw;
+            position: relative;
+            top: -9rem;
+            left: 19rem;
+        }
+
+        .fakhar {
+            height: 25vh;
+            width: 22vw;
+            position: relative;
+            top: 1rem;
+            left: 22px;
+        }
+
+        .naseem {
+            height: 25vh;
+            width: 22vw;
+            position: relative;
+            top: 1rem;
+            left: 27px;
+
+        }
+
+        .amir {
+            height: 25vh;
+            width: 22vw;
+            position: relative;
+            top: -144px;
+            left: 2rem;
+        }
+
+        .wasim {
+            height: 25vh;
+            width: 22vw;
+            position: relative;
+            right: 250px;
+            top: 1rem;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -31rem;
+            cursor: pointer;
+            left: -3rem;
+            font-weight: bold;
+            font-size: 25px;
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            text-shadow: 2px 2px 5px cyan;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        h3:hover {
+            text-decoration: underline black;
+        }
+
+        .dove {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: -30rem;
+            left: -3rem;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 12px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        .beaten {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: -29rem;
+            left: 33rem;
+            cursor: pointer;
+            color: black;
+            background-color: #8fd1da;
+            border-radius: 20px;
+            padding: 4px 7px;
+            border: 2px solid #22878a;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        .beaten:hover {
+            background-color: #22878a;
+        }
+
+        .no {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -616px;
+            left: 331px;
+            cursor: pointer;
+            font-size: 11px;
+            background-color: #ff700b;
+            width: 8vw;
+            padding: 2px 0px;
+
+        }
+
+        .ok {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -649px;
+            left: 904px;
+            cursor: pointer;
+            font-size: 11px;
+            background-color: #ff700b;
+            width: 8vw;
+            padding: 2px 0px;
+
+        }
+
+        .yes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -473px;
+            left: 331px;
+            cursor: pointer;
+            font-size: 11px;
+            background-color: #ff700b;
+            width: 8vw;
+            padding: 2px 0px;
+
+        }
+
+        .bye {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -506px;
+            left: 942px;
+            cursor: pointer;
+            font-size: 11px;
+            background-color: #ff700b;
+            width: 5vw;
+            padding: 2px 0px;
+
+        }
+
+        .why {
+            position: relative;
+            left: 24px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            color: #000;
+            margin: auto;
+        }
+
+        .container:hover {
+            text-decoration: underline rgb(0, 0, 0);
+        }
+
+        .contain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            top: -15px;
+            font-family: "Ubuntu", sans-serif;
+            margin-left: 28rem;
+
+        }
+
+        .contain:hover {
+            text-decoration: underline rgb(0, 0, 0);
+        }
+
+        .containe {
+            font-family: "Ubuntu", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            top: -28px;
+            /* word-spacing: 2.5px; */
+        }
+
+        .hey {
+            line-height: 59px;
+            font-size: 15px;
+            font-weight: bold;
+            /* background-color: #1b7587; */
+            width: 100vw;
+            height: 25vh;
+            position: relative;
+            left: -17px;
+            top: -16rem;
+        }
+
+        .mean {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            /* margin-top: 1.5rem; */
+            height: 80vh;
+            height: 40vh;
+            width: 79vw;
+            margin: -13.8rem 0px;
+            margin-left: -1rem;
+            position: relative;
+            right: -8rem;
+            row-gap: 0px;
+            column-gap: 0px;
+        }
+
+        .man {
+            height: 28vh;
+            width: 17vw;
+            /* border: 1px solid rgb(239, 230, 230); */
+            margin: 8px 0px;
+            padding-bottom: 50px;
+        }
+
+        .a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 115px;
+            left: 185px;
+            cursor: pointer;
+            /* background-color: brown; */
+            width: 118px;
+            height: 24px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+        }
+
+        .b {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 40px;
+            left: -127px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+        }
+
+        .c {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 1px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: 16rem;
+        }
+
+        .d {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -39px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: 48rem;
+        }
+
+        .e {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 112px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: -48rem;
+        }
+
+        .f {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 39px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: -17rem;
+        }
+
+        .g {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 0px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: 16rem;
+        }
+
+        .h {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -39px;
+            cursor: pointer;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            margin-left: 47rem;
+        }
+
+        .aa {
+            position: relative;
+            top: 120px;
+            left: 177px;
+            width: 45px;
+            height: 20px;
+            color: #b1adad;
+            cursor: pointer;
+            text-decoration-line: line-through;
+        }
+
+        .aaa {
+            position: relative;
+            top: 99px;
+            left: -343px;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .eat {
+            position: relative;
+            top: 98px;
+            left: 158px;
+            width: 45px;
+            height: 20px;
+            color: #b1adad;
+            cursor: pointer;
+            text-decoration-line: line-through;
+            font-size: 18px;
+        }
+
+        .ba {
+            position: relative;
+            top: 47px;
+            left: -138px;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .ca {
+            position: relative;
+            top: 7px;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 16rem;
+            font-size: 18px;
+        }
+
+        .da {
+            position: relative;
+            top: -33px;
+            margin-left: 49rem;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .ea {
+            position: relative;
+            top: 118px;
+            margin-left: -46rem;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .fa {
+            position: relative;
+            top: 45.6px;
+            margin-left: -17rem;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .ga {
+            position: relative;
+            top: 7px;
+            margin-left: 17rem;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .ha {
+            position: relative;
+            top: -33px;
+            margin-left: 48rem;
+            color: #009499;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .an {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -537.5px;
+            left: 8.3rem;
+            background-color: #726d6d;
+            height: 13px;
+            width: 32px;
+            cursor: pointer;
+            padding: 2px 3px;
+        }
+
+        .eaten {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -263px;
+            left: 8.1rem;
+            background-color: #726d6d;
+            height: 13px;
+            width: 32px;
+            cursor: pointer;
+            padding: 9px 17px;
+        }
+
+        #bill {
+            margin: 4rem -13px;
+            height: 120vh;
+            width: 99.5vw;
+            opacity: 0.3;
+            position: relative;
+            left: -7px;
+        }
+
+        footer {
+            text-align: center;
+            font-family: "Ubuntu", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            width: 70rem;
+            line-height: 36px;
+
+        }
+
+        .pen {
+            position: relative;
+            top: -34rem;
+        }
+
+        .band {
+            position: relative;
+            top: -33rem;
+        }
+
+        .ten {
+            position: relative;
+            top: -32rem;
+        }
+
+        .ben {
+            position: relative;
+            top: -32rem;
+        }
+
+        .last {
+            position: relative;
+            top: -31.5rem;
+            left: -96px;
+            text-decoration-line: line-through;
+            color: #838696;
+        }
+
+        .day {
+            position: relative;
+            top: -540px;
+            left: -10px;
+
+        }
+
+        .belt {
+            position: relative;
+            top: -577px;
+            left: 31px;
+            background-color: #a49a88;
+            width: 65px;
+            margin-left: 36rem;
+            font-size: 13px;
+            height: 30px;
+            border: 2px solid #a49a88;
+            /* border-radius: 22px; */
+            padding: 2px 0px;
+
+        }
+
+        .hen {
+            position: relative;
+            top: -35.5rem;
+            left: -3px;
+        }
+
+        .flag {
+            height: 3vh;
+            width: 2vw;
+            position: relative;
+            top: -37.6rem;
+            left: 95px;
+
+        }
+
+
+
+        h1 {
+            padding: 6px 6px;
+            margin: 10px;
+            top: -12px;
+            left: -9px;
+            position: relative;
+            font-weight: bold;
+            font-size: 29px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        h1:hover {
+            color: blue;
+            text-decoration: underline blue;
+            /* background-color: orange; */
+        }
+
+        .han:hover {
+            background-color: orange;
+
+        }
+
+        .fone {
+            /* padding: 9px 39px;
+            margin: 4px; */
+            top: -1px;
+            /* left: 4px; */
+            position: relative;
+            font-weight: bold;
+            font-size: medium;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 44px;
+        }
+
+        .fone:hover {
+            color: blue;
+            text-decoration: underline blue;
+            /* background-color: orange; */
+        }
+
+        .han {
+            margin-top: -22rem;
+        }
+
+        .img1 {
+            display: flex;
+            height: 10vh;
+            width: 12vh;
+            border: transparent;
+            border-radius: 50%;
+            top: 5px;
+            left: 206px;
+            position: relative;
+            cursor: pointer;
+
+        }
+
+        .img2 {
+            display: flex;
+            height: 10vh;
+            width: 12vh;
+            border: transparent;
+            border-radius: 50%;
+            top: 5px;
+            left: 126px;
+            position: relative;
+            cursor: pointer;
+
+
+
+        }
+
+        .img3 {
+            cursor: pointer;
+            display: flex;
+            height: 10vh;
+            width: 12vh;
+            border: transparent;
+            border-radius: 50%;
+            top: 5px;
+            left: 33px;
+            position: relative;
+
+
+        }
+
+        .flex-container {
+            display: flex;
+            border-color: aliceblue;
+            justify-content: space-between;
+            cursor: pointer;
+
+        }
+
+        .flex-container>div {
+            cursor: pointer;
+            border-color: aliceblue;
+            margin: 18px;
+            padding: 20px;
+            width: 0px;
+            visibility: hidden;
+
+        }
+
+        .lenardo {
+            margin: 2px;
+            height: 10px;
+            width: 300px;
+            position: relative;
+            left: 87px;
+            top: 31px;
+            font-size: small;
+            font-weight: 100;
+            text-align: center;
+            cursor: pointer;
+            text-wrap: balance;
+
+
+
+        }
+
+        .zayn {
+            margin: 2px;
+            height: 10px;
+            width: 300px;
+            position: relative;
+            left: 488px;
+            top: 19px;
+            font-size: small;
+            font-weight: 100;
+            text-align: center;
+            text-wrap: balance;
+            cursor: pointer;
+
+
+
+        }
+
+        .babare {
+            margin: 2px;
+            height: 10px;
+            width: 300px;
+            position: relative;
+            left: 864px;
+            top: 7px;
+            font-size: small;
+            font-weight: 100;
+            text-align: center;
+            text-wrap: balance;
+
+
+        }
+
+        .holl {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 6px;
+            width: 125px;
+            position: relative;
+            left: 191px;
+            top: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: start;
+            cursor: pointer;
+
+
+        }
+
+        .sing {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 8px;
+            width: 100px;
+            position: relative;
+            left: 585px;
+            top: 82px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+            cursor: pointer;
+
+
+        }
+
+        .crick {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 5px;
+            width: 100px;
+            position: relative;
+            left: 955px;
+            top: 72px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: right;
+            cursor: pointer;
+
+
+
+        }
+
+        .brone {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 5px;
+            width: 103px;
+            position: relative;
+            left: 200px;
+            top: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: left;
+            cursor: pointer;
+
+
+        }
+
+        .brtwo {
+            cursor: pointer;
+            border-color: aliceblue;
+            margin: 2px;
+            height: 5px;
+            width: 128px;
+            position: relative;
+            left: 615px;
+            top: 83px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: left;
+
+
+        }
+
+        .brthree {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 5px;
+            width: 128px;
+            position: relative;
+            left: 957px;
+            top: 75px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        hr {
+            position: relative;
+            top: 10rem;
+        }
+
+
+        .lastone {
+            display: flex;
+            height: 14vh;
+            width: 20vh;
+            border: transparent;
+            top: 5px;
+            left: 110px;
+            position: relative;
+
+
+
+        }
+
+        .lasttwo {
+            display: flex;
+            height: 14vh;
+            width: 20vh;
+            border: transparent;
+            top: 5px;
+            left: 60px;
+            position: relative;
+
+
+        }
+
+        .lastthree {
+            display: flex;
+            height: 14vh;
+            width: 20vh;
+            border: transparent;
+            top: 5px;
+            left: 0px;
+            position: relative;
+
+
+        }
+
+        .lastfour {
+            display: flex;
+            height: 14vh;
+            width: 20vh;
+            border: transparent;
+            top: 5px;
+            left: -54px;
+            position: relative;
+
+
+        }
+
+        .lastfive {
+            display: flex;
+            height: 14vh;
+            width: 20vh;
+            border: transparent;
+            top: 5px;
+            left: -80px;
+            position: relative;
+
+
+
+        }
+
+        .flex-containe {
+            display: flex;
+            flex-direction: row;
+            border-color: aliceblue;
+            justify-content: space-between;
+            position: relative;
+            top: 15rem;
+
+
+
+        }
+
+        .flex-container>div {
+            background-color: aliceblue;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+        /* .sascrib {
+            border-color: aliceblue;
+            margin: 2px;
+            padding: 10px;
+            height: 6px;
+            width: 280px;
+            position: relative;
+            left: 85px;
+            top: 230px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: start;
+            cursor: pointer;
+
+
+        }
+
+        .e-mail {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 6px;
+            width: 525px;
+            position: relative;
+            left: 95px;
+            top: 230px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            text-align: start;
+            cursor: pointer;
+
+        } */
+
+        .store {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 6px;
+            width: 255px;
+            position: relative;
+            left: 47px;
+            top: 380px;
+            /* font-family: 'Baloo Bhai', cursive; */
+            font-family: "Ubuntu", sans-serif;
+
+            font-weight: bold;
+            font-size: 19px;
+            text-align: start;
+            cursor: pointer;
+        }
+
+        .teche {
+            border-color: aliceblue;
+            margin: 2px;
+            height: 6px;
+            width: 160px;
+            position: relative;
+            left: 84px;
+            top: 420px;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: "Ubuntu", sans-serif;
+
+            font-weight: bold;
+            font-size: 14px;
+            text-align: start;
+            cursor: pointer;
+
+        }
+
+        /* .menu {
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            width: 68px;
+            position: relative;
+            left: 335px;
+            top: 400px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+            cursor: pointer;
+            border-spacing: 15px;
+        } */
+
+        .menu {
+            position: relative;
+            top: 22.5rem;
+            margin-left: 27rem;
+            cursor: pointer;
+            line-height: 37px;
+            font-weight: bold;
+            /* font-family: 'Baloo Bhai', cursive; */
+            font-family: "Ubuntu", sans-serif;
+
+        }
+
+        .privacy {
+            /* font-family: 'Baloo Bhai', cursive; */
+            font-family: "Ubuntu", sans-serif;
+
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            width: 175px;
+            position: relative;
+            left: 40rem;
+            top: 10.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 25px;
+
+
+        }
+
+        .gmel {
+            /* font-family: 'Baloo Bhai', cursive; */
+            font-family: "Ubuntu", sans-serif;
+
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            width: 245px;
+            position: relative;
+            left: 900px;
+            top: 122px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 30px;
+
+
+        }
+
+        .copyright {
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            width: 700px;
+            position: relative;
+            left: 248px;
+            top: 356px;
+            /* font-family: 'Baloo Bhai', cursive; */
+            font-family: "Ubuntu", sans-serif;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        hr {
+            position: relative;
+            top: 10rem;
+        }
+
+        .boxer {
+            background-color: #c2d8d1;
+            position: relative;
+            top: 20rem;
+            height: 26vh;
+            text-align: center;
+            cursor: pointer;
+            width: 79.7vw;
+            font-weight: bold;
+            margin-left: 3rem;
+            font-family: "Ubuntu", sans-serif;
+
+
+        }
+
+        .car {
+            position: relative;
+            top: 0rem;
+            left: -8rem;
+            font-size: 20px;
+
+        }
+
+        .bike {
+            position: relative;
+            top: 4rem;
+            left: -23rem;
+            font-size: 13px;
+            width: 20rem;
+
+        }
+
+
+        .home {
+            padding: 5px 13px;
+            text-align: start;
+            border: 2px solid white;
+            width: 25vw;
+            margin-right: -10rem;
+            margin-top: 50px;
+            font-family: 'Baloo Bhai', cursive;
+            cursor: pointer;
+        }
+
+        .butn {
+            padding: 9.5px 5px;
+            background-color: orange;
+            width: 6vw;
+            position: relative;
+            top: -35px;
+            left: 243px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dabba">
+        <div class="hex">&phone; +92 3331112244</div>
+        <div class="hexy">&#9993; techessentials@gmail.com</div>
+        <div class="hexa">5-10 business Days Delivery & Free Returns</div>
+    </div>
+
+    <div class="navbar">
+        <h2>TECH ESSENTIAL STORE</h2>
+        <div class="nav">
+            <div class="first">Home</div>
+            <div class="second">Products&#x025BE;</div>
+            <div class="third">Services </div>
+            <div class="four">About Us</div>
+        </div>
+    </div>
+    <header>
+        <div>
+            <img src="assets/main top bg.jpg" alt="Error 69" class="imag">
+        </div>
+        <div class="text">
+            Premium Laptops & Accessories for Every Need
+        </div>
+        <div class="tex">
+            Revolutionize Your Tech Experience with Our Premium Laptops and Accessories
+        </div>
+        <button class="btn">Explore Now</button>
+    </header>
+    <main>
+        <div>
+            <img src="assets/free shipping.jpg" alt="error 69" class="name">
+        </div>
+        <div>
+            <img src="assets/always fresh.jpeg" alt="error69" class="name">
+        </div>
+        <div>
+            <img src="assets/superior quality.jpeg" alt="error69" class="name">
+        </div>
+        <div>
+            <img src="assets/support.jpeg" alt="error69" class="name">
+        </div>
+    </main>
+    <article>
+        <div class="rl">FREE SHIPPING</div>
+        <div class="to">ALWAYS FRESH</div>
+        <div class="why">SUPERIOR QUALITY</div>
+        <div class="fr">SUPPORT</div>
+    </article>
+
+    <aside>
+        <div class="ab">PER ORDER OVER 100$</div>
+        <div class="cd">PRODUCT WELL PACKAGE</div>
+        <div class="ef">QUALITY PRODUCTS</div>
+        <div class="gh">24/7 CUSTOMER SUPPORT</div>
+    </aside>
+
+    <div class="box">
+        <div><img src="assets/headphone.jpeg" alt="" class="babar"></div>
+        <div><img src="assets/ssdharddrive.jpg" alt="" class="fakhar"></div>
+        <div><img src="assets/mousekeyboard.jpg" alt="" class="naseem"></div>
+        <div><img src="assets/usbchargerpowerbank.jpg" alt="" class="amir"></div>
+        <div><img src="assets/stand2.jpeg" alt="" class="wasim"></div>
+    </div>
+    <div class="hello">
+        <h3>Laptop & Accessories</h3>
+        <div class="dove">Empowering every home with the <br>latest in technology and Accessories</div>
+        <button class="beaten">Explore Now!</button>
+    </div>
+    <div class="no">HEADPHONES</div>
+    <div class="yes">HARDDRIVE</div>
+    <div class="ok">USB CHARGER</div>
+    <div class="bye">STAND</div>
+
+
+
+
+
+    <div class="hey">
+        <div class="container">
+            <h1>Premier Picks</h1>
+        </div>
+        <div class="contain">
+            <h2>Our Premium Tech Essentials</h2>
+        </div>
+        <div class="containe">Explore Top-Quality Laptops and Accessories Crafted for Excellence</div>
+    </div>
+    </div>
+    <main class="mean">
+        <div><img src="assets/P1gaminglaptop.jpeg" alt="" class="man"></div>
+        <div><img src="assets/P2stand&coolingpads.jpeg" alt="" class="man"></div>
+        <div><img src="assets/P3DockingStations.jpg" alt="" class="man"></div>
+        <div><img src="assets/mouse2.webp" alt="" class="man"></div>
+        <div><img src="assets/P5Portable Chargers and Power Banks.webp" alt="" class="man"></div>
+        <div><img src="assets/laptop bateer.jpeg" alt="" class="man"></div>
+        <div><img src="assets/P7Laptop Cleaning Kits.jpeg" alt="" class="man"></div>
+        <div><img src="assets/P8internet connector cable.jpg" alt="" class="man"></div>
+    </main>
+    <summary>
+        <div class="a">Gaming Laptop</div>
+        <div class="aa">$2000.00</div>
+        <div class="aaa">$1500.00</div>
+        <div class="an">25%</div>
+        <div class="b">Laptop Stand & Cooling Pads</div>
+        <div class="ba">$300.00</div>
+        <div class="c">Docking Station</div>
+        <div class="ca">$200.00</div>
+        <div class="d">Wireless Mouse</div>
+        <div class="da">$400.00</div>
+        <div class="e">Portable Chargers & PowerBanks</div>
+        <div class="ea">$525.00</div>
+        <div class="eat">$700.00</div>
+        <div class="eaten">25%</div>
+        <div class="f">Laptop Batteries</div>
+        <div class="fa">$100.00</div>
+        <div class="g">Cleaning Kits</div>
+        <div class="ga">$500.00</div>
+        <div class="h">Internet Connector Cable</div>
+        <div class="ha">$800.00</div>
+    </summary>
+
+    <footer>
+        <img src="assets/dealfinal.jpg" alt="image not found error 69/18+" id="bill">
+        <div class="pen">Exceptional Tech Accessories at Remarkable Prices on Independence Day</div>
+        <div class="band">Independence Day Special Tech Exclusive!</div>
+        <div class="ten">Grab Independence Day Special Exclusive Offer - Limited Time Only! Don't Miss Out on Incredible
+            Savings!</div>
+        <div class="ben">50% Off on Laptop & Accessoriess</div>
+        <div class="last">$5000</div>
+        <div class="day">$2500 Only</div>
+        <div class="belt">50% Off</div>
+        <div class="hen">Live on 14 August</div>
+        <img src="assets/flag.jpg" alt="" class="flag">
+    </footer>
+
+    <div class="han">
+
+        <br>
+        <h1>Client Experiences</h1>
+        <h1>Hear Directly From our Delighted Customers</h1>
+        <div class="fone">"Discover Why Our Customers Are Thrilled - Real Stories of Exceptional Services And Join Our
+            Community of Happy
+            tech Enthusiasts!"
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <img src="assets/R1.jpeg" alt="error404" class="img1">
+        <div class="flex-container"></div>
+        <img src="assets/R2.jpeg" alt="error404" class="img2">
+        <div class="flex-container"></div>
+        <img src="assets/R3.jpeg" alt="error404" class="img3">
+        <div class="flex-container"></div>
+    </div>
+    <div class="lenardo">"I recently purchased a laptop from tech essentials market,and i could'nt be Happy
+        The quality of product exceeded my expectations,and the customer service was
+        highly recommend for anyone looking for reliable tech!"
+    </div>
+    <div class="zayn">"Tech essentials market made my buying Experience seamless and enjoyable.
+        the range of laptops and accesories is imoressive,and the delivery was prompt. the team was extremely helpfull
+        in answering all my questions."
+    </div>
+    <div class="babare">"Tech essentials market has become my Go-to for all tech needs. the laptop i bought was
+        not only top quality but also came with excellent support.
+        the buying process was straight forward,and the staff was incredibly knowledgable."
+
+    </div>
+    <div class="holl">Leonardo De Caprio</div>
+    <div class="sing">Zayn Malik</div>
+    <div class="crick">Babar Azam</div>
+
+    <div class="brone"> Hollywood Actor</div>
+    <div class="brtwo">Singer</div>
+    <div class="brthree"> Worldclass cricketer</div>
+    <hr>
+    <div class="flex-containe">
+        <img src="assets/last1.jpeg" alt="error404" class="lastone">
+        <img src="assets/last2.png" alt="error404" class="lasttwo">
+        <img src="assets/last3.png" alt="error404" class="lastthree">
+        <img src="assets/last4.png" alt="error404" class="lastfour">
+        <img src="assets/last5.jpeg" alt="error404" class="lastfive">
+    </div>
+    <article class="boxer">
+        <div class="car">
+            Stay Updated
+        </div>
+        <div class="bike">
+            Sure here's a compelling line to place under Stay Updated
+        </div>
+        <div>
+            <input type="text" name="" placeholder="Enter Email Address" class="home">
+            <p class="butn">Subscribe</p>
+        </div>
+    </article>
+
+    <div class="store">
+        TECH ESSENTIALS STORE
+    </div>
+    <div class="teche">Discover the latest in tech innovation with tech essentials. Experience unmatched quality and
+        service tailored for your needs.
+        Join us today and elevate your Tech."</div>
+    <div class="menu">Menu
+        <p>Shop</p>
+        <p>About</p>
+        <p>Journal</p>
+        <p>Contact us</p>
+    </div>
+    <div class="privacy"> Help
+        <p>Shippng informaton FAQs</p>
+        <p>Return & Exchange Contact</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+
+    </div>
+    <div class="gmel"> Have a Questions?
+        <p>Location 123 Tech lane, Karachi 74000. </p>
+        <p>phone number 03331112229</p>
+        <p>e-mail techessentials@gmail.com</p>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @2024 ALL Right Reserved|This website is made by TECH ESSENTIAL</p>
+    </div>
+
+</body>
+
+</html>
